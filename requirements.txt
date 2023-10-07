@@ -1,2 +1,4 @@
-sanic[ext]
+sanic
+sanic_ext
 motor
+aiohttp

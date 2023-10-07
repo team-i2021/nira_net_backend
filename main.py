@@ -2,6 +2,9 @@ import asyncio
 import aiohttp
 import sanic
 import json
+import logging
+
+logging.basicConfig(filename="backend.log", format="%(asctime)s$%(filename)s$%(lineno)d$%(funcName)s$%(levelname)s:%(message)s", level="INFO")
 
 from sanic import response, Request
 from sanic_ext import Extend
