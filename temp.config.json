@@ -1,0 +1,10 @@
+{
+    "client_id": Discord Client ID,
+    "client_secret": Discord Client Secret,
+    "bot_token": Discord BOT Token,
+    "mongo_uri": MongoDB URI,
+    "mongo_db": Mongo Database Name,
+    "cors_origins": CORS Origin,
+    "host": Web Host,
+    "port": Web Port Number
+}
